@@ -76,11 +76,11 @@
     <h1>Vérificateur d'âge</h1>
     <label for="birthdate">Entrez votre date de naissance :</label>
     <input type="date" id="birthdate">
-    <button onclick="checkAge()">Vérifier</button>
+    <button onclick="verifieAge()">Vérifier</button>
     <p id="result"></p>
 
     <script>
-        function checkAge() {
+        function verifieAge() {
     let birthdateInput = document.getElementById("birthdate").value;
     let birthdate = new Date(birthdateInput);
     let today = new Date();
