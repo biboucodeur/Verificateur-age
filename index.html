@@ -28,11 +28,11 @@
 
     let resultElement = document.getElementById("result");
     if (isNaN(age)) {
-        resultElement.textContent = "Veuillez entrer une date de naissance valide.";
+        resultElement.textContent = "Veuillez entrer une date de naissance valide !";
     } else if (age >= 18) {
-        resultElement.textContent = "Vous avez " + age + " ans. Vous êtes majeur.";
+        resultElement.textContent = "Vous avez " + age + " ans, Vous êtes majeur !";
     } else {
-        resultElement.textContent = "Vous avez " + age + " ans. Vous êtes mineur.";
+        resultElement.textContent = "Vous avez " + age + " ans, Vous êtes mineur !";
     }
 }
     </script>
